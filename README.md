@@ -3,10 +3,11 @@
 A modern web application for lossless text compression using the Huffman coding algorithm. Built with React, TypeScript, and Tailwind CSS.
 
 ## Screenshots
-
-![Screenshot 1](https://github.com/user-attachments/assets/8c9a87e1-9597-46c4-bac6-96daf7a7adc4)
-![Screenshot 2](https://github.com/user-attachments/assets/aac8a2de-7d81-45e4-bf6c-fa52cb31e955)
 ![Screenshot 3](https://github.com/user-attachments/assets/c8c04297-5062-4f20-9044-1e9d19df33f8)
+![Screenshot 2](https://github.com/user-attachments/assets/aac8a2de-7d81-45e4-bf6c-fa52cb31e955)
+![Screenshot 1](https://github.com/user-attachments/assets/8c9a87e1-9597-46c4-bac6-96daf7a7adc4)
+
+
 
 
 
