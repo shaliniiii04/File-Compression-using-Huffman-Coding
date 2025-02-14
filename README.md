@@ -22,7 +22,7 @@ A modern web application for lossless text compression using the Huffman coding 
 
 ## Live Demo
 
-[View Live Demo](#) [<!-- Add your deployed site URL here -->](https://filecompression.netlify.app/)
+[View Live Demo](#) [<!-- [Add your deployed site URL here](https://filecompression.netlify.app/) -->](https://filecompression.netlify.app/)
 
 ## Technologies Used
 
