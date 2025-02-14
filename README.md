@@ -1,50 +1,129 @@
-# React + TypeScript + Vite
+# Huffman Compression Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application for lossless text compression using the Huffman coding algorithm. Built with React, TypeScript, and Tailwind CSS.
 
-Currently, two official plugins are available:
+![Huffman Compression Tool](https://images.unsplash.com/photo-1555952494-efd681c7e3f9?auto=format&fit=crop&q=80&w=1200&h=400)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- 🚀 **Efficient Compression**: Reduce file sizes using advanced Huffman coding
+- 📝 **Text File Support**: Compress various text-based formats (.txt, .html, .css, .js, etc.)
+- 🔄 **Lossless Compression**: No data loss during compression/decompression
+- 📊 **Real-time Statistics**: View compression ratios and file size details
+- 💪 **Large File Support**: Handle files up to 50MB
+- 🎯 **User-Friendly Interface**: Modern, intuitive design with drag-and-drop support
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Live Demo
 
-- Configure the top-level `parserOptions` property like this:
+[View Live Demo](#) <!-- Add your deployed site URL here -->
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Technologies Used
+
+- React 18
+- TypeScript
+- Tailwind CSS
+- Vite
+- Lucide Icons
+- React Router DOM
+- React Dropzone
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/YOUR_USERNAME/huffman-compression.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+2. Navigate to the project directory
+```bash
+cd huffman-compression
 ```
+
+3. Install dependencies
+```bash
+npm install
+```
+
+4. Start the development server
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`
+
+## Usage
+
+### Compressing Files
+
+1. Navigate to the "Compress" page
+2. Drag and drop a text file or click to select one
+3. Wait for the compression to complete
+4. View compression statistics
+5. Download the compressed file
+
+### Decompressing Files
+
+1. Navigate to the "Decompress" page
+2. Upload a previously compressed .bin file
+3. Wait for the decompression to complete
+4. Download the original file
+
+## How It Works
+
+### Huffman Coding Algorithm
+
+The application uses Huffman coding, a lossless data compression algorithm that works by:
+
+1. Analyzing character frequencies in the input text
+2. Building a Huffman tree based on these frequencies
+3. Generating variable-length codes for each character
+4. Encoding the text using these codes
+
+Benefits:
+- More frequent characters get shorter codes
+- Less frequent characters get longer codes
+- Results in optimal prefix-free codes
+
+## Project Structure
+
+```
+src/
+├── components/         # Reusable UI components
+├── pages/             # Page components
+├── utils/
+│   └── huffman/       # Huffman coding implementation
+├── hooks/             # Custom React hooks
+└── main.tsx          # Application entry point
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/improvement`)
+3. Make your changes
+4. Commit your changes (`git commit -am 'Add new feature'`)
+5. Push to the branch (`git push origin feature/improvement`)
+6. Create a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+Your Name - [@your_twitter](https://twitter.com/your_twitter)
+
+Project Link: [https://github.com/YOUR_USERNAME/huffman-compression](https://github.com/YOUR_USERNAME/huffman-compression)
+
+## Acknowledgments
+
+- [React Documentation](https://react.dev)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Huffman Coding - Wikipedia](https://en.wikipedia.org/wiki/Huffman_coding)
