@@ -2,7 +2,7 @@
 
 A modern web application for lossless text compression using the Huffman coding algorithm. Built with React, TypeScript, and Tailwind CSS.
 
-![Huffman Compression Tool]![Screenshot 2025-02-14 235854](https://github.com/user-attachments/assets/a6a42356-05b3-4c7a-9d61-e62d005efd81)
+[Screenshot 2025-02-14 235854](https://github.com/user-attachments/assets/a6a42356-05b3-4c7a-9d61-e62d005efd81)
 
 
 ## Features
@@ -16,7 +16,7 @@ A modern web application for lossless text compression using the Huffman coding 
 
 ## Live Demo
 
-[View Live Demo](#) <!-- Add your deployed site URL here -->
+[View Live Demo](#) [<!-- Add your deployed site URL here -->](https://filecompression.netlify.app/)
 
 ## Technologies Used
 
@@ -113,15 +113,6 @@ src/
 5. Push to the branch (`git push origin feature/improvement`)
 6. Create a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_twitter)
-
-Project Link: [https://github.com/YOUR_USERNAME/huffman-compression](https://github.com/YOUR_USERNAME/huffman-compression)
 
 ## Acknowledgments
 
